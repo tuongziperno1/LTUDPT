@@ -1,4 +1,4 @@
-pragma solidity ^0.5.11;
+
 
 contract myContractgit {
     uint storedData;
@@ -7,6 +7,6 @@ contract myContractgit {
         storedData = x;
     }
     function get() public view returns (uint){
-        return storedData
+        return storedData;
     }
 }
